@@ -1,0 +1,61 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Livraria</string>
+    <string name="title_activity_livro3">Livro3Activity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="ver" tools:ignore="DuplicateDefinition">Ver</string>
+    <string name="voltar" tools:ignore="DuplicateDefinition">Voltar</string>
+    <string name="livro_do_mestre_ded_5e">Livro do Mestre DeD 5e</string>
+    <string name="marca_gal_pagos_jogos">Marca:\tGalápagos Jogos</string>
+    <string name="g_nero_rpg">Gênero:\tRPG</string>
+    <string name="dimens_es_do_item_28_5_x_21_5_x_2_cent_metros">Dimensões do item:\t28.5 x 21.5 x 2 centímetros</string>
+    <string name="o_livro_do_mestre_traz_tudo_que_os_mestres_mais_exigentes_precisam_para_deixar_suas_aventuras_cada_vez_mais_completas_e_interessantes_para_os_jogadores_desde_diversos_itens_m_gicos_at_constru_o_de_cen_rios_completos_o_livro_do_mestre_essencial_em_todas_as_sess_es_de_jogos_o_master_guide_um_dos_tres_livros_b_sicos_de_dungeons_and_dragons_junto_do_monster_manual_e_o_players_handbook_os_jogadores_ir_o_construir_verdadeiras_lendas_nas_sess_es_de_rpg_e_com_um_mestre_auxiliado_pelo_master_guide_aventuras_epicas_esperam_seu_grupo">O Livro do Mestre traz tudo que os mestres mais exigentes precisam para deixar suas aventuras cada vez mais completas e interessantes para os jogadores! Desde diversos itens mágicos até construção de cenários completos, o Livro do Mestre é essencial em todas as sessões de jogos. O Master Guide é um dos tres livros básicos de Dungeons and Dragons junto do Monster Manual e o Players Handbook Os jogadores irão construir verdadeiras lendas nas sessões de RPG e com um mestre auxiliado pelo Master Guide, aventuras epicas esperam seu grupo!</string>
+    <string name="livro_do_mestre">livro do mestre</string>
+    <string name="livro_do_jogador_ded_5e">Livro do Jogador DeD 5e</string>
+    <string name="o_livro_principal_da_trilogia_dos_grandes_livros_da_5_edi_o_do_maior_e_melhor_rpg_do_mundo_livro_completo_com_todas_as_regras_para_que_os_jogadores_criem_os_mais_diversos_tipos_de_personagens_para_suas_aventuras_campanhas_a_vers_o_de_regras_mais_atual_do_mais_famoso_rpg_do_mundo_feito_visando_novos_e_antigos_jogadores_a_5_edi_o_celebra_toda_a_hist_ria_de_sucesso_da_franquia">O livro principal da trilogia dos Grandes Livros da 5ª Edição do maior e melhor RPG do mundo! Livro completo com todas as regras para que os jogadores criem os mais diversos tipos de personagens para suas aventuras/campanhas! A versão de regras mais atual do mais famoso RPG do mundo! Feito visando novos e antigos jogadores, a 5ª edição celebra toda a história de sucesso da franquia.</string>
+    <string name="livro_do_jogador">livro do jogador</string>
+    <string name="monstros_e_criaturas_ded_5e">Monstros e Criaturas DeD 5e</string>
+    <string name="marca_wizards_of_the_coast">Marca:\tWizards of the Coast</string>
+    <string name="dungeons_and_dragons_monstros_e_criaturas_adiciona_uma_camada_divertida_e_imersiva_s_feras_e_aos_monstros_do_sistema_este_livro_pico_totalmente_ilustrado_produzido_pelo_time_da_wizards_of_the_coast_transportar_voc_para_os_mundos_lend_rios_e_m_gicos_de_dungeons_and_dragons_trazendo_fichas_nicas_sobre_alguns_dos_monstros_mais_sinistros_horr_veis_e_memor_veis_do_sistema_com_ilustra_es_sensacionais_e_dicas_especializadas_sobre_alguns_dos_monstros_mais_perigosos_de_ded_este_guia_destaca_feras_que_assustam_empolgam_e_metem_os_aventureiros_em_confus_o">Dungeons and Dragons – Monstros e Criaturas adiciona uma camada divertida e imersiva às feras e aos monstros do sistema!!! Este livro épico totalmente ilustrado produzido pelo time da Wizards of the Coast transportará você para os mundos lendários e mágicos de Dungeons and Dragons, trazendo fichas únicas sobre alguns dos monstros mais sinistros, horríveis e memoráveis do sistema. Com ilustrações sensacionais e dicas especializadas sobre alguns dos monstros mais perigosos de DeD, este guia destaca feras que assustam, empolgam e metem os aventureiros em confusão.</string>
+    <string name="voltar3">Voltar</string>
+    <string name="livro_do_jogador1">Livro do Jogador</string>
+    <string name="monstros_e_criaturas1">Monstros e Criaturas</string>
+    <string name="candlekeep_mysteries1">Candlekeep Mysteries</string>
+    <string name="livro_do_mestre_home">livro do mestre home</string>
+    <string name="livro_do_jogador_home">livro do jogador home</string>
+    <string name="heroes_feats_home">heroes feats home</string>
+    <string name="candlekeep_mysteries_home">candlekeep mysteries home</string>
+    <string name="livro_do_mestre1">Livro do Mestre</string>
+    <string name="monstros_e_criaturas_home">monstros e criaturas home</string>
+    <string name="heroes_feast1">Heroes Feast</string>
+    <string name="marca_gal_pagos_jogos1">Marca:\tGalápagos Jogos</string>
+    <string name="g_nero_rpg1">Gênero:\tRPG</string>
+    <string name="dimens_es_do_item_28_5_x_21_5_x_2_cent_metros1">Dimensões do item:\t28.5 x 21.5 x 2 centímetros</string>
+    <string name="g_nero_rpg2">Gênero:\tRPG</string>
+    <string name="dimens_es_do_item_28_5_x_21_5_x_2_cent_metros2">Dimensões do item:\t28.5 x 21.5 x 2 centímetros</string>
+    <string name="monstros_e_criaturas2">monstros e criaturas</string>
+    <string name="voltar1">Voltar</string>
+    <string name="ver2">Ver</string>
+    <string name="heroe_s_feast_ded_5e">Heroe\'s Feast DeD 5e</string>
+    <string name="marca_ten_speed_press">Marca: Ten Speed Press</string>
+    <string name="g_nero_rpg3">Gênero: RPG</string>
+    <string name="dimens_es_do_item_28_5_x_21_5_x_2_cent_metros3">Dimensões do item:\t28.5 x 21.5 x 2 centímetros</string>
+    <string name="dos_especialistas_em_ded_por_tr_s_de_dungeons_and_dragons_art_and_arcana_chega_um_livro_de_receitas_que_convida_os_amantes_da_fantasia_a_celebrar_as_cria_es_culin_rias_nicas_e_as_tradi_es_de_suas_culturas_ficcionais_favoritas_com_este_livro_voc_pode_preparar_pratos_delicados_o_suficiente_para_jantar_como_elfos_e_seus_primos_drows_ou_saud_veis_o_suficiente_para_festejar_como_um_cl_an_o_ou_uma_horda_de_orcs_todos_os_oitenta_pratos_desenvolvidos_por_um_chef_profissional_s_o_deliciosos_f_ceis_de_preparar_e_compostos_de_ingredientes_saud_veis_facilmente_encontrados_em_nosso_mundo3">Dos especialistas em DeD por trás de Dungeons and Dragons Art and Arcana, chega um livro de receitas que convida os amantes da fantasia a celebrar as criações culinárias únicas e as tradições de suas culturas ficcionais favoritas. Com este livro, você pode preparar pratos delicados o suficiente para jantar como elfos e seus primos drows ou saudáveis ​​o suficiente para festejar como um clã anão ou uma horda de orcs. Todos os oitenta pratos - desenvolvidos por um chef profissional - são deliciosos, fáceis de preparar e compostos de ingredientes saudáveis ​​facilmente encontrados em nosso mundo.</string>
+    <string name="heroes_feast">heroes feast</string>
+    <string name="ver">Ver</string>
+    <string name="voltar">Voltar</string>
+    <string name="candlekeep_mysteries_ded_5e">Candlekeep Mysteries DeD 5e</string>
+    <string name="marca_wizards_of_the_coast1">Marca: Wizards of the Coast</string>
+    <string name="g_nero_rpg4">Gênero: RPG</string>
+    <string name="dimens_es_do_item_28_5_x_21_5_x_2_cent_metros4">Dimensões do item:\t28.5 x 21.5 x 2 centímetros</string>
+    <string name="candlekeep_atrai_estudiosos_como_uma_chama_atrai_mariposas_historiadores_s_bios_e_outros_que_anseiam_por_conhecimento_migram_para_esta_biblioteca_fortaleza_para_examinar_sua_vasta_cole_o_de_livros_nos_quais_est_o_rabiscadas_as_respostas_para_os_mist_rios_que_os_atormentam_muitos_desses_livros_cont_m_seus_pr_prios_mist_rios_cada_um_uma_porta_de_entrada_para_a_aventura_voc_se_atreve_a_cruzar_esse_limite_candlekeep_mysteries_uma_cole_o_de_dezessete_aventuras_de_ded_curtas_e_independentes_projetadas_para_personagens_de_n_veis_1_16_cada_aventura_come_a_com_a_descoberta_de_um_livro_e_cada_livro_a_chave_para_uma_porta_atr_s_da_qual_o_perigo_e_a_gl_ria_aguardam">Candlekeep atrai estudiosos como uma chama atrai mariposas. Historiadores, sábios e outros que anseiam por conhecimento migram para esta biblioteca-fortaleza para examinar sua vasta coleção de livros, nos quais estão rabiscadas as respostas para os mistérios que os atormentam. Muitos desses livros contêm seus próprios mistérios - cada um é uma porta de entrada para a aventura. Você se atreve a cruzar esse limite? Candlekeep Mysteries é uma coleção de dezessete aventuras de DeD curtas e independentes projetadas para personagens de níveis 1-16. Cada aventura começa com a descoberta de um livro, e cada livro é a chave para uma porta atrás da qual o perigo e a glória aguardam.</string>
+    <string name="candlekeep_mysteries">candlekeep mysteries</string>
+
+
+</resources>
