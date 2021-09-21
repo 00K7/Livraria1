@@ -2,19 +2,23 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.livraria">
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permissions.ACESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permissions.INTERNET" />
+
     <application
-        android:allowBackup="true"
+        android:allowBackup=""
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Livraria">
-        <activity android:name=".Livro5Activity"></activity>
+        <activity android:name=".Loc" />
+        <activity android:name=".Livro5Activity" />
         <activity android:name=".Livro4Activity" />
         <activity android:name=".Livro3Activity" />
         <activity android:name=".Livro2Activity" />
         <activity android:name=".Livro1Activity" />
-        <activity android:name=".livro1Activity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

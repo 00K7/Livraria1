@@ -54,6 +54,14 @@
     <string name="dimens_es_do_item_28_5_x_21_5_x_2_cent_metros4">Dimensões do item:\t28.5 x 21.5 x 2 centímetros</string>
     <string name="candlekeep_atrai_estudiosos_como_uma_chama_atrai_mariposas_historiadores_s_bios_e_outros_que_anseiam_por_conhecimento_migram_para_esta_biblioteca_fortaleza_para_examinar_sua_vasta_cole_o_de_livros_nos_quais_est_o_rabiscadas_as_respostas_para_os_mist_rios_que_os_atormentam_muitos_desses_livros_cont_m_seus_pr_prios_mist_rios_cada_um_uma_porta_de_entrada_para_a_aventura_voc_se_atreve_a_cruzar_esse_limite_candlekeep_mysteries_uma_cole_o_de_dezessete_aventuras_de_ded_curtas_e_independentes_projetadas_para_personagens_de_n_veis_1_16_cada_aventura_come_a_com_a_descoberta_de_um_livro_e_cada_livro_a_chave_para_uma_porta_atr_s_da_qual_o_perigo_e_a_gl_ria_aguardam">Candlekeep atrai estudiosos como uma chama atrai mariposas. Historiadores, sábios e outros que anseiam por conhecimento migram para esta biblioteca-fortaleza para examinar sua vasta coleção de livros, nos quais estão rabiscadas as respostas para os mistérios que os atormentam. Muitos desses livros contêm seus próprios mistérios - cada um é uma porta de entrada para a aventura. Você se atreve a cruzar esse limite? Candlekeep Mysteries é uma coleção de dezessete aventuras de DeD curtas e independentes projetadas para personagens de níveis 1-16. Cada aventura começa com a descoberta de um livro, e cada livro é a chave para uma porta atrás da qual o perigo e a glória aguardam.</string>
     <string name="candlekeep_mysteries">candlekeep mysteries</string>
+    <string name="minha_localiza_o">Minha Localização</string>
+    <string name="title_activity_localizacao">Localizacao</string>
+    <string name="minha_localizacao">Minha Localizacao</string>
+    <string name="longitude">Longitude:</string>
+    <string name="latitude">Latitude:</string>
+    <string name="cidade">Cidade:</string>
+    <string name="estado">Estado:</string>
+    <string name="pa_s">País:</string>
 
 
 </resources>
