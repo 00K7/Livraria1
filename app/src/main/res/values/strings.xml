@@ -62,6 +62,10 @@
     <string name="cidade">Cidade:</string>
     <string name="estado">Estado:</string>
     <string name="pa_s">País:</string>
+    <string name="minha_localiza_o_atual">Minha Localização Atual</string>
+    <string name="salvar">salvar</string>
+    <string name="ler">ler</string>
+    <string name="localizar">localizar</string>
 
 
 </resources>

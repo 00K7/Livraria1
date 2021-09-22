@@ -1,18 +1,55 @@
 package com.example.livraria;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
 
+import android.app.Service;
 import android.content.Intent;
+import android.graphics.Color;
+import android.hardware.Sensor;
+import android.hardware.SensorEvent;
+import android.hardware.SensorEventListener;
+import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RelativeLayout;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    SensorManager sm;
+    SensorEventListener listener;
+    Sensor light;
+    RelativeLayout tela;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        tela = (RelativeLayout) findViewById(R.id.tela);
+        sm = (SensorManager) getSystemService(SENSOR_SERVICE);
+        light = sm.getDefaultSensor(Sensor.TYPE_LIGHT);
+
+        listener = new SensorEventListener() {
+
+            @Override
+            public void onAccuracyChanged(Sensor sensor, int accuracy) {
+                Toast.makeText(MainActivity.this, "accuracy changed!", Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onSensorChanged(SensorEvent event) {
+
+                int grayShade = (int) event.values[0];
+                if (grayShade > 255) grayShade = 255;
+
+                tela.setBackgroundColor(Color.rgb(grayShade, grayShade, grayShade));
+            }
+        };
+
+        sm.registerListener(listener, light, SensorManager.SENSOR_DELAY_FASTEST);
+
+
 
         Button btnLivro1 = (Button) findViewById(R.id.btnLivro1);
         btnLivro1.setOnClickListener(new View.OnClickListener() {
@@ -63,14 +100,19 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button btnLoc = (Button) findViewById(R.id.btnLoc);
-        btnLoc.setOnClickListener(new View.OnClickListener() {
+        Button btnloc = (Button) findViewById(R.id.btnloc);
+        btnloc.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                Intent it6 = new Intent(getApplicationContext(), Loc.class);
+                Intent it6 = new Intent(getApplicationContext(), locesave.class);
                 startActivity(it6);
             }
         });
+
+
     }
+
+
+
 }

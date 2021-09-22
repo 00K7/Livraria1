@@ -1,0 +1,8 @@
+<root>
+    <item
+        name='com.google.android.gms.location.LocationRequest com.google.android.gms.location.LocationRequest setInterval(long)'>
+        <annotation name='org.jetbrains.annotations.Contract'>
+            <val val="&quot;_-&gt;this&quot;" />
+        </annotation>
+    </item>
+</root>
