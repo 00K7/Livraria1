@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tela8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gps">
+
+
+    <Button
+        android:id="@+id/btnfind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="83dp"
+        android:layout_marginLeft="83dp"
+        android:layout_marginTop="61dp"
+        android:text="@string/start_tracking_location"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtlocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="150dp"
+        android:textColor="@color/white"
+        android:text="@string/textview_hint"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnfind" />
+
+    <ImageView
+        android:id="@+id/imageview_android"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="309dp"
+        android:layout_marginEnd="280dp"
+        android:layout_marginRight="280dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/android_plain" />
+
+    <Button
+        android:id="@+id/btnVoltar8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="280dp"
+        android:text="@string/voltar"
+        android:layout_marginLeft="41dp" />
+</RelativeLayout>

@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Livraria/app/src/main/res/drawable/android_plain.xml" value="0.3828125" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Livraria/app/src/main/res/layout/activity_editoras.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Livraria/app/src/main/res/layout/activity_gps.xml" value="0.35260416666666666" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Livraria/app/src/main/res/layout/activity_livro1.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Livraria/app/src/main/res/layout/activity_livro2.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Usuario/AndroidStudioProjects/Livraria/app/src/main/res/layout/activity_livro3.xml" value="0.36666666666666664" />

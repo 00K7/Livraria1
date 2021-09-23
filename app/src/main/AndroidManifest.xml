@@ -4,7 +4,6 @@
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -14,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Livraria"
         android:usesCleartextTraffic="true">
+        <activity
+            android:name=".gps"
+            android:exported="true" />
         <activity
             android:name=".salvar"
             android:exported="true" />

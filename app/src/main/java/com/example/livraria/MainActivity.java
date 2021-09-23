@@ -1,9 +1,7 @@
 package com.example.livraria;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.constraintlayout.widget.ConstraintLayout;
 
-import android.app.Service;
 import android.content.Intent;
 import android.graphics.Color;
 import android.hardware.Sensor;
@@ -14,7 +12,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RelativeLayout;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -108,6 +105,16 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent it6 = new Intent(getApplicationContext(), salvar.class);
                 startActivity(it6);
+            }
+        });
+
+        Button btnloc = (Button) findViewById(R.id.btnloc);
+        btnloc.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Intent it7 = new Intent(getApplicationContext(), gps.class);
+                startActivity(it7);
             }
         });
 
