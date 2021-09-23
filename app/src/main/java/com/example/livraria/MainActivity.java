@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     SensorEventListener listener;
     Sensor light;
     RelativeLayout tela;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onAccuracyChanged(Sensor sensor, int accuracy) {
-                Toast.makeText(MainActivity.this, "accuracy changed!", Toast.LENGTH_SHORT).show();
+
             }
 
             @Override
@@ -100,15 +101,17 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button btnloc = (Button) findViewById(R.id.btnloc);
-        btnloc.setOnClickListener(new View.OnClickListener() {
+        Button btnsave = (Button) findViewById(R.id.btnsave);
+        btnsave.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                Intent it6 = new Intent(getApplicationContext(), locesave.class);
+                Intent it6 = new Intent(getApplicationContext(), salvar.class);
                 startActivity(it6);
             }
         });
+
+
 
 
     }

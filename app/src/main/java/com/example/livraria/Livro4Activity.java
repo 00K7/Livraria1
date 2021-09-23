@@ -1,19 +1,51 @@
 package com.example.livraria;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
 
 import android.content.Intent;
+import android.graphics.Color;
+import android.hardware.Sensor;
+import android.hardware.SensorEvent;
+import android.hardware.SensorEventListener;
+import android.hardware.SensorManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
 public class Livro4Activity extends AppCompatActivity {
+    SensorManager sm;
+    SensorEventListener listener;
+    Sensor light;
+    ConstraintLayout tela4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_livro4);
+        tela4 = (ConstraintLayout) findViewById(R.id.tela4);
+        sm = (SensorManager) getSystemService(SENSOR_SERVICE);
+        light = sm.getDefaultSensor(Sensor.TYPE_LIGHT);
+
+        listener = new SensorEventListener() {
+
+            @Override
+            public void onAccuracyChanged(Sensor sensor, int accuracy) {
+
+            }
+
+            @Override
+            public void onSensorChanged(SensorEvent event) {
+
+                int grayShade = (int) event.values[0];
+                if (grayShade > 255) grayShade = 255;
+
+                tela4.setBackgroundColor(Color.rgb(grayShade, grayShade, grayShade));
+            }
+        };
+
+        sm.registerListener(listener, light, SensorManager.SENSOR_DELAY_FASTEST);
 
         Button btnVoltar3 = (Button) findViewById(R.id.btnVoltar3);
         btnVoltar3.setOnClickListener(new View.OnClickListener() {

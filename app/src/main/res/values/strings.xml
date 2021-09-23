@@ -66,6 +66,12 @@
     <string name="salvar">salvar</string>
     <string name="ler">ler</string>
     <string name="localizar">localizar</string>
+    <string name="editoras_e_livros">editoras e livros</string>
+    <string name="entrega">entrega</string>
+    <string name="editora">Editora</string>
+    <string name="livros">livros</string>
+    <string name="editoras">Editoras</string>
+    <string name="livro_s">Livro(s)</string>
 
 
 </resources>

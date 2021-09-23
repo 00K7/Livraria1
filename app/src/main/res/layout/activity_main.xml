@@ -150,14 +150,26 @@
         app:layout_constraintTop_toBottomOf="@+id/btnLivro4" />
 
     <Button
-        android:id="@+id/btnloc"
+        android:id="@+id/btnsave"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="630dp"
         android:layout_marginLeft="24dp"
+        android:layout_marginTop="590dp"
         android:layout_marginBottom="2dp"
-        android:text="@string/minha_localiza_o"
+        android:text="@string/editoras_e_livros"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnlocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="670dp"
+        android:layout_marginBottom="2dp"
+        android:text="@string/entrega"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 

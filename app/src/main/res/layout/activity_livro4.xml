@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tela4"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Livro4Activity">
@@ -10,14 +11,12 @@
         android:id="@+id/btnWeb4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="54dp"
         android:layout_marginEnd="31dp"
         android:layout_marginRight="31dp"
-        android:layout_marginBottom="28dp"
+        android:layout_marginBottom="50dp"
         android:text="@string/ver2"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
         android:id="@+id/btnVoltar3"
@@ -56,6 +55,7 @@
         android:layout_marginLeft="136dp"
         android:layout_marginTop="19dp"
         android:text="@string/heroe_s_feast_ded_5e"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView9" />
 
@@ -67,6 +67,7 @@
         android:layout_marginLeft="31dp"
         android:layout_marginTop="20dp"
         android:text="@string/marca_ten_speed_press"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -78,6 +79,7 @@
         android:layout_marginLeft="31dp"
         android:layout_marginTop="12dp"
         android:text="@string/g_nero_rpg3"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
@@ -89,6 +91,7 @@
         android:layout_marginLeft="31dp"
         android:layout_marginTop="12dp"
         android:text="@string/dimens_es_do_item_28_5_x_21_5_x_2_cent_metros3"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
@@ -100,6 +103,7 @@
         android:layout_marginLeft="31dp"
         android:layout_marginTop="12dp"
         android:text="@string/dos_especialistas_em_ded_por_tr_s_de_dungeons_and_dragons_art_and_arcana_chega_um_livro_de_receitas_que_convida_os_amantes_da_fantasia_a_celebrar_as_cria_es_culin_rias_nicas_e_as_tradi_es_de_suas_culturas_ficcionais_favoritas_com_este_livro_voc_pode_preparar_pratos_delicados_o_suficiente_para_jantar_como_elfos_e_seus_primos_drows_ou_saud_veis_o_suficiente_para_festejar_como_um_cl_an_o_ou_uma_horda_de_orcs_todos_os_oitenta_pratos_desenvolvidos_por_um_chef_profissional_s_o_deliciosos_f_ceis_de_preparar_e_compostos_de_ingredientes_saud_veis_facilmente_encontrados_em_nosso_mundo3"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView18" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tela3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Livro3Activity">
@@ -60,6 +61,7 @@
         android:layout_marginLeft="116dp"
         android:layout_marginTop="19dp"
         android:text="@string/monstros_e_criaturas_ded_5e"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView8" />
 
@@ -71,6 +73,7 @@
         android:layout_marginLeft="31dp"
         android:layout_marginTop="46dp"
         android:text="@string/marca_wizards_of_the_coast"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
@@ -82,6 +85,7 @@
         android:layout_marginLeft="31dp"
         android:layout_marginTop="12dp"
         android:text="@string/g_nero_rpg2"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
@@ -93,6 +97,7 @@
         android:layout_marginLeft="31dp"
         android:layout_marginTop="12dp"
         android:text="@string/dimens_es_do_item_28_5_x_21_5_x_2_cent_metros2"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
@@ -102,6 +107,7 @@
         android:layout_height="216dp"
         android:layout_marginTop="12dp"
         android:text="@string/dungeons_and_dragons_monstros_e_criaturas_adiciona_uma_camada_divertida_e_imersiva_s_feras_e_aos_monstros_do_sistema_este_livro_pico_totalmente_ilustrado_produzido_pelo_time_da_wizards_of_the_coast_transportar_voc_para_os_mundos_lend_rios_e_m_gicos_de_dungeons_and_dragons_trazendo_fichas_nicas_sobre_alguns_dos_monstros_mais_sinistros_horr_veis_e_memor_veis_do_sistema_com_ilustra_es_sensacionais_e_dicas_especializadas_sobre_alguns_dos_monstros_mais_perigosos_de_ded_este_guia_destaca_feras_que_assustam_empolgam_e_metem_os_aventureiros_em_confus_o"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.775"
         app:layout_constraintStart_toStartOf="parent"

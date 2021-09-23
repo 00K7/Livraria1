@@ -14,7 +14,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Livraria"
         android:usesCleartextTraffic="true">
-        <activity android:name=".locesave"></activity>
+        <activity
+            android:name=".salvar"
+            android:exported="true" />
         <activity android:name=".Livro5Activity" />
         <activity android:name=".Livro4Activity" />
         <activity android:name=".Livro3Activity" />
